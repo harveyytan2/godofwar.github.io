@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>God Of War Ragnarok</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/> 
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+<style>
+    .content-ragnarok{
+        background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/games/bg1.jpg);
+        max-width: 100%;
+        max-height: 100%;
+        height: 110vh;
+
+    }
+    .content-ragnarok2{
+        background: linear-gradient(to right, transparent, black), url(img/games/bg2.jpg);
+        max-width: 100%;
+        max-height: 100%;
+        height: 80vh;
+        position: relative;
+        background-position: left;
+
+    }
+    .content-ragnarok3{
+        background: linear-gradient(to left, transparent, black), url(img/games/bg4.jpg);
+        max-width: 100%;
+        max-height: 100%;
+        height: 100vh;
+        position: relative;
+        background-position: top;
+
+    }
+    .content-ragnarok4{
+        background: linear-gradient(to right, transparent, black), url(img/games/bg5.jpeg);
+        max-width: 100%;
+        max-height: 100%;
+        height: 100vh;
+        position: relative;
+        background-position: left 30%, 20%;
+
+    }
+    .title{
+        color: white;
+        font: 50px;
+        text-align: center;
+        padding-top: 40px;
+        font-family: 'Libre Baskerville', serif;
+    }
+    .paragraph{
+        text-align: center;
+        margin: 10%;
+        color: white;
+        font-family: 'Libre Baskerville', serif;
+        font-size: 20px;
+    }
+    .gow-image{
+        width: 80%;
+        margin-top: 100px;
+        transition: 0.4s;
+        margin-left: 100px;
+    }
+    .gow-image:hover{
+        transform: scale(1.1);
+        z-index: 2;
+    }
+    .logo-r{
+        margin-left: 12%;
+        transition: 0.4s;
+    }
+    .logo-r:hover{
+        transform: scale(1.1);
+        z-index: 2;
+    }
+    @media (max-width: 375px){
+        .title{
+        color: white;
+        font: 30px;
+        text-align: center;
+        padding-top: 40px;
+        font-family: 'Libre Baskerville', serif;
+        }   
+        .paragraph{
+        text-align: left;
+        margin: 0%;
+        color: white;
+        font-family: 'Libre Baskerville', serif;
+        font-size: 16px;
+        }
+        .content-ragnarok{
+        background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/games/bg1.jpg);
+        max-width: 100%;
+        max-height: 100%;
+        height: 280vh;
+
+    }
+    .content-ragnarok2{
+        background: linear-gradient(to right, transparent, black), url(img/games/bg2.jpg);
+        max-width: 100%;
+        max-height: 100%;
+        height: 80vh;
+        position: relative;
+        background-position: left;
+
+    }
+    .content-ragnarok3{
+        background: linear-gradient(to left, transparent, black), url(img/games/bg4.jpg);
+        max-width: 100%;
+        max-height: 100%;
+        height: 280vh;
+        position: relative;
+        background-position: top;
+
+    }
+    .content-ragnarok4{
+        background: linear-gradient(to right, transparent, black), url(img/games/bg5.jpeg);
+        max-width: 100%;
+        max-height: 100%;
+        height: 250vh;
+        position: relative;
+        background-position: left 30%, 20%;
+    }
+    .logo-r{
+        margin-left: 12%;
+        transition: 0.4s;
+        width: 80%;
+    }
+    
+    }   
+</style>
+<body>
+  <header class="header">
+    <nav class="navbar bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <img src="img/logo.jpg" class="logo">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <img src="img/logo.jpg" class="logo4">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Exploration</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="articles.html">Articles</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="register.html">Register</a>
+              </li>
+            </ul>
+            <form class="d-flex mt-3" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+
+  </header>
+    <section class="content-ragnarok">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="title">God of War Ragnarok</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <p class="paragraph">
+                    In Midgard, three years after Fimbulwinter began, as Kratos and Atreus were returning home after a hunt, they were attacked by Freya, who then failed to kill Kratos. When the duo reach their home, Fenrir, one of their wolves, is close to dying; Atreus recites a funerary chant before asking his father to let him grieve for and bury the wolf. Kratos accepts and falls asleep at the house. <br>
+
+Kratos dreams about his beloved wife, Faye but is awoken by Mimir, who is worried since Atreus hasn't returned home from burying Fenrir. While searching for his son, Kratos and Mimir are attacked by a bear named Bjorn. Kratos strangles the bear until it shape-shifts back to Atreus, who suddenly developed his bear powers from his intense emotions. Atreus and Kratos argue about the former's intent to learn more his "Loki" identity before returning home again. <br>
+
+While both father and son were asleep, they were awoken by Thor, the God of Thunder, who asks to talk with Kratos. Odin, the King of Asgard, follows soon after, and makes an offer to the God of War: in exchange for him and Atreus not antagonizing the Aesir Gods, Odin and Thor would also not do the same, in order to maintain peace. After they reveal that Atreus has been secretly searching for Týr, the apparently dead Nordic God of War, and after Mimir chastises Odin, Kratos coldly refuses the deal. Odin allows Thor to assault Kratos as retribution for killing Baldur, Magni, and Modi. Kratos dies from head trauma but is revived by Thor, who repeatedly tries to goad Kratos' rage so he can see the "Ghost of Sparta". When Thor boasts of Odin's "plans" for Atreus, Kratos punches Thor with his full might, and the satisfied God of Thunder departs, claiming "[I'll] be seeing 'ya". br
+
+                </p>
+            </div>
+            <div class="col-6">
+                <img src="img/games/logo.jpg" class="logo-r">
+                <p class="paragraph">
+                    Brok and Sindri encounter a wounded Kratos, who asks them for help going back to his home since Odin is still with Atreus and Mimir. Deducing that Kratos' magical protection stave is broken, Brok offers him, his son, and the head refuge in Sindri's house. Returning home, Kratos is relieved to find Atreus safe, but is angered by how the boy hid the fact that he was researching on Tyr and Loki on his own. However, seeing that this path helps in ensuring safety for Atreus, Kratos accompanies him to Sköll and Hati's Jötunn mural, which actually has a secret room inside that reveals the real fate of the two Giant wolves. The mural and Atreus' secret explorations hint in Kratos, him, and Mimir having to go to Svartalfheim, the Realm of the Dwarves, to free Týr, who is potentially still alive.
+                </p>
+                
+            </div>
+        </div>
+    </section>
+    <section class="content-ragnarok2">
+            <div class="row">
+                <div class="col-6">
+                    
+            </div>
+                <div class="col-6">
+                    <p class="paragraph">
+                        Kratos and Mimir lament about how times were simpler in the past and how finding Týr might have been a mistake from Atreus. Atreus and Sindri sneaks away from them to go to Midgard in order to try recruiting Freya, despite the latter's protests. Atreus consults Jörmungandr first on advice for averting Ragnarök, and is disappointed that the only reply he got is to go to "Ironwood", which is potentially not a real place. Atreus meets Freya and reveals to her that he might be the last Giant left, and that Odin briefly visited Midgard. Freya refuses to tag along, and warns Atreus to never approach her again. While they go home, Sindri comforts Atreus and opens up about how Brok had actually died and Sindri partially resurrected him. They both promise to eventually be more honest to Brok and Kratos. <br>
+
+Kratos, Mimir, and Týr planned to visit Alfheim in order to see what secrets Groa's Jötunn shrine may unlock there. Atreus tags along and they face off against the Light Elves, who took control of the Light of Alfheim and its temple. Upon reaching Groa's shrine, it is revealed to an amused trio and a shocked Týr that Groa, the sorceress, lied about the Ragnarök prophecy to Odin; instead of all Nine Realms being destroyed together, a "Champion" will unite the Realms against Asgard and only the Aesir Realm will be destroyed through warfare. Týr is dismayed by the revelation and they return home.
+
+                    </p>
+                </div>
+    
+            </div>
+            </section>
+            <section class="content-ragnarok3">
+                <div class="row">
+                    <div class="col-6">
+                        <p class="paragraph">
+                            Back at Sindri's home, Kratos continues to demand the truth from Atreus, who has already considered going to Asgard as a spy against Odin. Mimir, Freya, Týr, Brok, and Sindri all discourage him from going to Odin, but he runs away. He finds a neglected Chaurli in Midgard, makes sure he's still alive, and enters the house underneath him, where Huginn is watching. He takes Atreus to Asgard, who encounters a Midgardian refugee, Skjöldr, and the God of Foresight, Heimdall. Skeptical, Heimdall attacks Atreus until Odin and Thor intervenes. Odin shows him around Asgard and offers Modi's room for him. He then asks for his help to translate a foreign text from a mysterious mask (or Mask of Creation), which may hold a vast array of knowledge. After Atreus reads, Odin deduces the mystery and sent him and Thor to Muspelheim to find another fragment of the mask. <br>
+
+Atreus convinces a salty Thor to explore Surtr's Trials while he sneaks to find the secret prophecy behind Surtr's Jötunn mural. Angrboda appears, hints in the Fire Giant still being alive, and they discover together that actually, Surtr can only destroy Asgard if he combines with his lover, Sinmara. Atreus returns to Thor and manages to get the mask piece. The two return to Asgard. <br>
+
+Back in the Realm Between Realms, Kratos plans to consult the fates of Norse Mythology, the Norns. With Mimir and Freya, they travel to Midgard, where the Norns toy with them before allowing the trio to consult them. In the Well of Urð, the Norns reveal three important informations. Firstly, Kratos will eventually die. Secondly, there is no predetermined fate for everyone, and that all prophecies are predictions were based on people's identities and actions. Finally, Heimdall plans to kill Atreus. Kratos, Mimir, and Freya are all perturbed by their words, but Kratos is only concerned about how to defend his son. And he can only do so by planning to kill Heimdall. <br>
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </section>
+            <section class="content-ragnarok4">
+                <div class="row">
+                    <div class="col-6">
+
+                    </div>
+                
+                    <div class="col-6">
+                        <p class="paragraph">
+                            Entering Asgard's city, Thor fights the younger Jörmungandr and with a powerful hit, sends him back in time, just before he fights Kratos. Kratos wins, shows mercy, and convinces Thor to fight against Odin. Odin arrives at the scene quickly, and kills Thor for changing sides, just before hitting Thrúd with Mjölnir. Kratos, Mimir, Atreus, and then with Freya face off against the Allfather. Atreus destroys his mask mid-battle, and drags his soul to Loki's Marble, which was given by Angrboda. <br><br>
+                            An enraged Sindri smashes the marble, effectively killing Odin, and Surtr, now named "Ragnarök", is ready to incinerate the Nine Realms. Angrboda and Fenrir, who has Garm's powers, help Kratos and the others to escape. Freyr sacrifices himself to ensure that Freya would reach Fenrir's rift in time. Because of this, Asgard is now finally destroyed. <br><br>
+
+Atreus, unconscious, wakes up and sends his goodbyes to the remaining survivors. He reunites with Kratos and Angrboda, who takes them into one last secret Jötunn shrine: Faye's. Atreus confesses that he has to travel alone from now on in order to find the rest of the Jötnar, and a saddened Kratos supports his decision. Atreus and Angrboda departs. Kratos finds out that there is another shrine behind Faye's: his very own. He is destined to eventually become the beloved All - Father of the Nine Realms. Shocked by this revelation, he invites Mimir and Freya to help him rebuild the Realms post-Ragnarök. They both accept the offer, and the adventures of Kratos, Mimir, and Freya continue.  
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </section>
+            
+    
+            <section class="footer">
+              <div class="content6">
+                <div class="row">
+                  <div class="col-4">
+                    <img src="img/logo.jpg" class="logo2">
+                  </div>
+                  <div class="col-4 column1">
+                    <center>
+                      <p class="p7">
+                        God of War Ragnarok | God of War 2018 | God of War: Ascension | God of War: Ghost of Sparta | God of War III | God of War: Chains of Olympus | God of War  II | God of War I
+                      </p>
+                      <div class="bar">
+                        <ul>
+                          <li> <a href="contact.html">Contact Us</a></li>
+                          <li> <a href="faq.html">FAQ's</a></li>
+                        </ul>
+                      </div>
+                    </center>
+                  </div>
+                  <div class="col-4 column">
+                    <p class="p8">Follow us on:</p>
+                    <center>
+                    <a href="#" class="fa fa-facebook"></a> 
+                    <a href="#" class="fa fa-twitter"></a> 
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-google"></a>
+                    <a href="#" class="fa fa-linkedin"></a> 
+                    </center>
+                  </div>
+        
+                </div>
+                
+                
+              </div>
+            </section>
+            <section class="footer2">
+              <div class="col-12 txt" style="background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,83,1) 100%, rgba(0,212,255,1) 100%);">
+                <center>&#169; Created by Harvey Tan</center>
+              </div>
+        
+            </section>
+    
+</body>
+</html>

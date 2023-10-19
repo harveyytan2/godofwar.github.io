@@ -1,0 +1,720 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.content{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(to left, transparent, black), url(img/background1.jpg);
+    position: relative;
+    background-position: center 13%;
+    
+}
+.logo4{
+    width: 50%;
+}
+.h1-ds{
+    font-size: 70px;
+    color: white;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.header-text1{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 11%;
+    color: white;
+}
+.header-text{
+    font-size: 20px;
+    width: 50%;
+    margin-left: 200px;
+    color: white;
+    margin-top: 2%;
+    font-family: 'Libre Baskerville', serif;
+}
+.header{
+    top: 10px;
+    left: 10px;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: .4s;
+}
+.navbar a:hover{
+    color: gainsboro;
+}
+.lgn-btn{
+    width: 140px;
+    border: none;
+    text-align: center;
+    border-radius: 15px;
+    padding: 10px;
+}
+.lgn-btn:hover{
+    background-color: black;
+
+}
+.logo{
+    width: 10%;
+    
+    
+}
+.lg{
+    width: 40%;
+    margin-left: 50px;
+    
+}
+
+
+.text-design{
+    text-align: center;
+    font-size: 22px;
+    color: black;
+    position: absolute;
+    
+    left: 3%;
+    font-family: 'Libre Baskerville', serif;
+}
+.content2{
+    height: 100%;
+    width: 100%;
+    min-height: 70vh;
+    background: linear-gradient(to left, transparent, black), url(img/kratos.jpg);
+    position: static;
+    background-repeat: no-repeat;
+    background-attachment: no;
+    background-position: center;
+    background-size: cover;
+}
+.text-design2{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    padding-top: 80px;
+    left: 10%;
+    
+}
+.see-more-btn{
+    width: 170px;
+    padding: 20px 20px;
+    font-size: 18px;
+    border-radius: 15px;
+    border: 1px solid #3bbee3;
+    font-family: 'Libre Baskerville', serif;
+    background: transparent;
+    color: #3bbee3;
+    transition: .3s;
+
+}
+.see-more-btn:hover{
+    background-color: #3bbee3;
+    color: black;
+
+}
+.p1{
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    padding-top: 160px;
+    left: 10%;
+    font-family: 'Libre Baskerville', serif;
+    width: 40%;
+}
+.content3{
+    height: 100%;
+    width: 100%;
+    min-height: 80vh;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.616), rgba(255, 255, 255, 0.61)), url(img/bg3.jpg);
+    position: static;
+    background-repeat: no-repeat;
+    background-attachment: no;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 90px;
+
+}
+.text-design3{
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    position: absolute;
+    top: 175%;
+    left: 35%;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.content-section{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 120px ;
+    
+    
+}
+.content-section .card{
+    flex: 1;
+    margin: 50px 75px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.7);
+    display: inline-block;
+    
+}
+.content-section .card img{
+    width: 400px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.text2{
+    font-size: 14px;
+}
+.btn1{
+    width: 100px;
+    color: black;
+    font-size: 12px;
+    padding: 12px 10px;
+    border: 2px solid #3bbee3;
+    border-radius: 20px;
+    margin-top: 10px;
+    
+    background-color: transparent;
+}
+.btn1:hover{
+    background-color: #3bbee3;
+    transition: .4s;
+    color: black;
+}
+.btn1 a{
+    text-decoration: none;
+}
+.card-content{
+    padding: 5px;
+}
+.text{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.content4{
+    height: 100%;
+    width: 100%;
+    min-height: 75vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/bg4.jpg);
+    position: static;
+    background-repeat: no-repeat;
+    background-attachment: no;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 90px;
+    padding-bottom: 40px;
+}
+.text-design4{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    
+    left: 35%;
+    font-family: 'Libre Baskerville', serif;
+}
+.p2{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    padding-top: 80px;
+    left: 3%;
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+}
+.exploration{
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.4s;
+    
+
+}
+.exploration:hover{
+    transform:scale(1.1);
+    z-index: 2;
+
+}
+.p3{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    padding-top: 60px;
+}
+.b1{
+    max-width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/modal/modal1.jpg);
+    height: 250px;
+    width: 500px;
+    max-height: 100%;
+}
+.modal-body h6{
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 18px;
+    padding-top: 40px;
+}
+.m1{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/modal/modal1.jpg);
+}
+.fs-5{
+    padding-left: 65px;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.accor h1{
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 50px;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    
+}
+.accor{
+    background-image: linear-gradient(to left, transparent, black), url(img/bg5.jpg);;
+    padding-bottom: 50px;
+}
+
+#accordion{
+    margin-top: 100px auto;
+    margin-left: 40px;
+    width: 1400px;
+
+}
+#accordion li{
+    list-style: none;
+    width: 100%;
+    margin-bottom: 10px;
+    background: gainsboro;
+    padding: 10px;
+    border-radius: 4px;
+    
+}
+#accordion li label{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    cursor: pointer;
+    font-family: 'Libre Baskerville', serif;
+}
+
+#accordion label + input[type="checkbox"]{
+    display: none;
+
+}
+#accordion .content5{
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s;
+
+}
+#accordion label + input[type="checkbox"]:checked + .content5{
+    max-height: 400px;
+    
+}
+.footer{
+    max-width: 100%;
+    width: 100%;
+    height: 30vh;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 100%, rgba(0,212,255,1) 100%);
+    overflow: hidden;
+    
+}
+.logo2{
+    padding-top: 80px;
+    padding-left: 40px;
+    width: 70%;
+    
+}
+.fa:hover { 
+    opacity: 0.9; 
+} 
+
+.fa-facebook { 
+    background: #3b5998; 
+    color: white; 
+} 
+
+.fa-twitter { 
+    background: #00acee; 
+    color: white; 
+} 
+
+.fa-instagram { 
+    background: orange; 
+    color: white; 
+} 
+.fa-linkedin { 
+    background: #0072b1; 
+    color: white; 
+} 
+.fa-google { 
+    background: #2ed573; 
+    color: white; 
+} 
+
+.fa { 
+    padding: 15px; 
+    font-size: 40px; 
+    width: 60px; 
+    text-decoration: none; 
+    margin: 5px 5px; 
+    border-radius: 15px;
+    transition: .4s;
+} 
+.p7{
+    
+    color: white;
+    font-size: 14px;
+    padding-top: 10%;
+    
+}
+.bar ul{
+    margin-top: 50px;
+    margin-left: -20%;
+}
+.bar ul li{
+    list-style: none;
+    display: inline-block;
+    border: 1px solid transparent;
+    padding: 20px 10px;
+}
+.bar ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: .4s;
+}
+.bar ul li a:hover{
+    color: #ff4757;
+}
+.txt{
+    color: white;
+}
+.column{
+    padding-top: 120px;
+    
+}
+.p8{
+    width: 100%;
+    color: white;
+    font-size: 14px;
+    padding-top: 30px;
+    padding-left: 20%;
+}
+.primary-btn{
+    width: 170px;
+    padding: 20px 20px;
+    font-size: 18px;
+    border-radius: 15px;
+    border: 2px solid #3bbee3;
+    font-family: 'Libre Baskerville', serif;
+    background: transparent;
+    color: #3bbee3;
+    transition: .3s;
+    margin-left: 4%;
+    
+}
+.primary-btn:hover{
+    background-color: #dfe4ea;
+    color: black;
+
+}
+.secondary-btn{
+    width: 160px;
+    padding: 20px;
+    border: 2px solid #3bbee3;
+    border-radius: 15px;
+    text-decoration: none;
+    color: black;
+    transition: .4s;
+    
+}
+.secondary-btn:hover{
+    color: black;
+    background-color: #3bbee3;
+
+}
+.icons{
+    font-size: 2.8rem;
+    color: black;
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    right: 5%;
+
+}
+
+#check{
+    display: none;
+}
+
+@media (max-width: 992px){
+    .header{
+        padding: 1rem 5%;
+
+    }
+    
+    
+}
+@media (max-width: 375px){
+
+    *{
+        
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+    
+    
+    
+    .logo {
+        width: 30%; /* Adjust the size as needed */
+        display: block;
+      }
+    .content{
+        height: 100%;
+        width: 100%;
+        min-height: 60vh;
+        background-image: linear-gradient(to bottom, transparent, black), url(img/background1.jpg);
+        position: relative;
+        background-position: center 13%;
+        
+    }
+    .lg{
+        width: 80%;
+        margin-top: 15%;
+    }
+    .primary-btn{
+        margin-top: 15%;
+        margin-left: 30%;
+    }
+    .content2{
+        height: 100%;
+        width: 100%;
+        min-height: 80vh;
+        background: linear-gradient(to right, transparent, black), url(img/kratos.jpg);
+        position: static;
+        background-repeat: no-repeat;
+        background-attachment: no;
+        background-position: center;
+        background-size: cover;
+    }
+    .text-design2{
+        font-size: 30px;
+        padding-top: 10%;
+    }
+    .p1{
+        padding-top: 25%;
+        font-size: 16px;
+        width: 80%;
+    }
+    
+    .see-more-btn{
+        margin-left: 20%;
+    }
+    .footer{
+        max-width: 100%;
+        width: 100%;
+        height: 30vh;
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 100%, rgba(0,212,255,1) 100%);
+        overflow: hidden;
+        
+    }
+    .logo2{
+        
+        width: 100%;
+        height: 50%;
+        
+    }
+    
+    .fa { 
+        padding: 5px; 
+        font-size: 20px; 
+        width: 40px; 
+        text-decoration: none; 
+        
+        border-radius: 15px;
+        transition: .4s;
+    } 
+    .p7{
+        
+        color: white;
+        font-size: 10px;
+        
+        
+    }
+    .p8{
+        width: 100%;
+        color: white;
+        font-size: 10px;
+        margin-top: -100%;
+    }
+    .bar ul{
+       margin-left: -100%;
+       margin-top: -15%;
+       
+        
+    }
+    .bar ul li{
+        list-style: none;
+        margin-top: -100%;
+        border: 1px solid transparent;
+    }
+    .content3{
+        height: 100%;
+        width: 100%;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.616), rgba(255, 255, 255, 0.61)), url(img/bg3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+        
+        align-items: center;
+        justify-content: center;
+        
+    
+
+    }
+    
+    
+    .text-design3{
+        text-align: center;
+        font-size: 30px;
+        color: black;
+        position: absolute;
+        top: 150%;
+        left: 5%;
+        font-family: 'Libre Baskerville', serif;
+    }
+
+    .content-section{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 80px ;
+        
+        
+    }
+    .content-section .card{
+        flex: 1;
+        margin-left: -15%;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.7);
+        display: inline-block;
+        
+    }
+    .content-section .card img{
+        width: 220px;
+        height: auto;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    #accordion{
+        margin-top: 20px;
+        margin-left: 0%;
+        width: 350px;
+    
+    }
+    .accor1 h1{
+        font-size: 30px;
+        padding-top: 15%;
+    }
+    .content4{
+        height: 100%;
+        width: 100%;
+        min-height: 100vh;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        padding: 0px 90px;
+        padding-bottom: 40px;
+    }
+    .text-design4{
+        text-align: center;
+        font-size: 50px;
+        color: white;
+        position: absolute;
+        
+        left: 1%;
+        font-family: 'Libre Baskerville', serif;
+    }
+    .p2{
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        position: absolute;
+        padding-top: 120px;
+        left: 3%;
+        font-family: 'Libre Baskerville', serif;
+        font-style: italic;
+    }
+    .exploration{
+        width: 300%;
+        border-radius: 10px;
+        transition: 0.4s;
+        margin-left: -160%;
+        margin-top: 145%;
+        
+    }
+    .exploration:hover{
+        transform:scale(1.1);
+        z-index: 2;
+    
+    }
+    .p3{
+        font-size: 16px;
+        color: white;
+        font-family: 'Libre Baskerville', serif;
+        padding-top: 270px;
+        width: 400%;
+        margin-left: -85%;
+    }
+    .navbar-toggler {
+        position: absolute;
+        left: 300px; /* Adjust the left position as needed */
+        top: 20px; /* Adjust the top position as needed */
+      }
+      
+      
+      
+    
+    
+}

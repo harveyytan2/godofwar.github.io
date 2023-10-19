@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>God Of War</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/> 
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+<style>
+    .content-ascension{
+        background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/games/ascension/bg1.jpg);
+        max-width: 100%;
+        max-height: 100%;
+        height: 130vh;
+    }
+    .content-ascension2{
+        background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/games/ascension/img2.jpg);
+        max-width: 100%;
+        max-height: 100%;
+        height: 90vh;
+    }
+    .text-ds{
+        text-align: center;
+        color: white;
+        font-family: 'Libre Baskerville', serif;
+        margin-top: 5%;
+        font-size: 50px;
+    }
+    .paragraph{
+        font-size: 18px;
+        color: white;
+        text-align: center;
+        padding: 80px 50px;
+    }
+    .front-img{
+        width: 90%;
+        transition: .4s;
+        margin-left: 50px;
+        padding-left: 50px;
+    }
+    .front-img:hover{
+        transform: scale(1.1);
+        z-index: 2;
+    }
+    .front-img2{
+        width: 90%;
+        transition: .4s;
+        margin-top: 20%;
+        
+    }
+    .front-img2:hover{
+        transform: scale(1.1);
+        z-index: 2;
+    }
+    .paragraph2{
+        font-size: 18px;
+        color: white;
+        text-align: center;
+        padding: 30px 50px;
+    }
+    .logo-a{
+        margin-left: 6% ;
+        transition: 0.4s;
+    }
+    .logo-a:hover{
+        transform: scale(1.1);
+        z-index: 2;
+    }
+    @media (max-width: 375px){
+      .content-ascension{
+        background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/games/ascension/bg1.jpg);
+        max-width: 100%;
+        max-height: 100%;
+        height: 130vh;
+    }
+    .content-ascension2{
+        background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/games/ascension/img2.jpg);
+        max-width: 100%;
+        max-height: 100%;
+        height: 250vh;
+    }
+    .text-ds{
+        text-align: center;
+        color: white;
+        font-family: 'Libre Baskerville', serif;
+        margin-top: 5%;
+        font-size: 30px;
+    }
+    .paragraph{
+        font-size: 12px;
+        color: white;
+        text-align: center;
+        padding: 0;
+    }
+    .front-img{
+        width: 90%;
+        transition: .4s;
+        margin-left: 30px;
+        padding-left: 0px;
+    }
+    .front-img:hover{
+        transform: scale(1.1);
+        z-index: 2;
+    }
+    .front-img2{
+        width: 90%;
+        transition: .4s;
+        margin-top: 450%;
+        
+    }
+    .front-img2:hover{
+        transform: scale(1.1);
+        z-index: 2;
+    }
+    .paragraph2{
+        font-size: 12px;
+        color: white;
+        text-align: center;
+        padding: 0;
+    }
+    .logo-a{
+        margin-left: 0;
+        transition: 0.4s;
+        width: 90%;
+        padding-top: 100%;
+    }
+    .logo-a:hover{
+        transform: scale(1.1);
+        z-index: 2;
+    }
+    }
+</style>
+<body>
+  <header class="header">
+    <nav class="navbar bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <img src="img/logo.jpg" class="logo">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <img src="img/logo.jpg" class="logo4">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Exploration</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="articles.html">Articles</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="register.html">Register</a>
+              </li>
+            </ul>
+            <form class="d-flex mt-3" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+
+  </header>
+    <section class="content-ascension">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-ds">
+                    God of War: Ascension
+                </h1>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <p class="paragraph">
+                    God of War: Ascension is the seventh installment in the God of War series, released on March 12, 2013. Chronologically, it serves as the first chapter in the series, forming part of a saga with vengeance as a central theme. <br><br>
+
+The game predates Kratos' entire reign as the god of war, and features a timeline roughly six months after Kratos' unintentional killing of his wife and daughter. Flashbacks also occur, seeing as how this timeline follows his allegiance to Ares, which was already addressed in the original God of War, which takes place ten years after the events of Ascension. <br><br>
+
+It marks a new chapter in Kratos' story, as its listing notes to "Join Kratos as he takes his first steps on a now legendary quest for freedom, redemption, and the clarity to avenge his family in the most ambitious God of War adventure in the series so far." <br><br>
+                </p>
+            </div>
+            <div class="col-6">
+                <img src="img/games/ascension/logo.jpg" class="logo-a">
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <img src="img/games/ascension/bg1.jpg" alt="" class="front-img">
+            </div>
+            <div class="col-6">
+                <p class="paragraph2">
+                    In a war between the astronomically large deities known as the Primordials, the madness and rage of the war took form, becoming the three guardians of honor, the Furies, who were tasked with exacting retribution onto any oath-breaker or betrayer. The first victim of the Furies was the Hecatonchires, Aegaeon, who had broken a blood oath to Zeus himself. The Furies set about their task, and, believing death to be too kind for one who had broken an oath to a God, transformed Aegaeon's humongous body into a stone prison for all who would dare follow his example in the future. <br><br>
+
+Later on, the Furies had dealings with the God of War, Ares, and became ruthless under his 'guidance,' forming a plot to overtake Olympus, but finding that they were lacking in their forces; they needed the perfect warrior to aid them in their attack on the Gods. The Fury Queen, Alecto, mated with Ares in the hopes of creating such a warrior. Unfortunately for them, their son, Orkos, was not up to Ares' standards, and was disowned. Alecto and the other Furies, though, saw worth in him and made him the oath-keeper. <br><br>
+
+Seeing the makings of a perfect warrior in the Spartan, Kratos, Ares formed a blood oath with the tattooed warrior in order to mold him into a heartless killing machine, tricking him into killing his wife, Lysandra, and his child, Calliope, for nothing to restrict him from his onslaughts. However, Kratos, enraged and saddened by the accidental killing, became a self-pitying recluse, unable to forgive himself for his crime and adamantly vowing never to serve Ares ever again. <br><br>
+                </p>
+            </div>
+        </div>
+
+    </section>
+    <section class="content-ascension2">
+        <div class="row">
+            <div class="col-6">
+                <p class="paragraph2">
+                    Ares, angered by Kratos's decision, orders the Furies to capture him for his betrayal. The trio, in order to weaken the Spartan's mind, cast illusions which torture him to no end. Seeing the injustice in Kratos' oath, Orkos betrays the Furies and allies himself with the Spartan, informing him that the answer to his freedom from his bond to Ares can be found in Delphi, with the Oracle Aletheia. After slaying Pollux and Castor, the prophets who had imprisoned the Oracle, Aletheia reveals to the Spartan that the only way to be free of his bond to the God of War would be to slay the Furies. <br><br>
+
+However, after continuing his quest, the Furies ambush the Spartan and Orkos, and proceed to imprison Kratos within Aegaeon. As Kratos suffers from torture at the hands of the Furies, he defiantly refuses their offers for him to return to Ares. However, one Fury, Megaera, holding a grudge against Kratos for severing her arm in a struggle they had prior to his capture, attacks him and unintentionally breaks the chains binding him. <br><br>
+
+Kratos then attacks Megaera, who, enraged with his defiance, uses her parasitic brood to return Aegaeon to life, having sections of the prison attack Kratos. However, Kratos luckily manages to evade Aegaeon's attacks and slay Megaera. Eventually, he comes across the remaining Furies, Tisiphone and Alecto , who once again attempt to lure him back into Ares' servitude by seducing him in the form of Lysandra. Kratos, refusing illusion over reality, manages to kill both Furies, breaking Tisiphone's neck, and stabbing Alecto to death.<br><br>
+
+Kratos, in his victory, returns to his home in Sparta, meeting with Orkos, who reveals that he was once again made the Spartan's oath keeper, by the Furies, before their death; the only way for Kratos and Orkos to be free from their respective bonds to Ares, the Spartan must kill Orkos.<br><br>
+
+The latter, accepting his death honorably, hands over his blade to Kratos, who hesitantly drives the blade within Orkos' abdomen, finally breaking his bond to Ares. Much to Kratos' horror, though, haunting visions of the murder of his wife and child, which were previously masked by his bond, suddenly plagued his mind, crippling him out of sorrow. He then sets out to be rid of his new nightmares, burning down his home with Orkos' corpse inside it.<br><br>
+                </p>
+            </div>
+            <div class="col-6">
+                <img src="img/games/ascension/img2.jpg" alt="" class="front-img2">
+            </div>
+
+        </div>
+    </section>
+    <section class="footer">
+      <div class="content6">
+        <div class="row">
+          <div class="col-4">
+            <img src="img/logo.jpg" class="logo2">
+          </div>
+          <div class="col-4 column1">
+            <center>
+              <p class="p7">
+                God of War Ragnarok | God of War 2018 | God of War: Ascension | God of War: Ghost of Sparta | God of War III | God of War: Chains of Olympus | God of War  II | God of War I
+              </p>
+              <div class="bar">
+                <ul>
+                  <li> <a href="contact.html">Contact Us</a></li>
+                  <li> <a href="faq.html">FAQ's</a></li>
+                </ul>
+              </div>
+            </center>
+          </div>
+          <div class="col-4 column">
+            <p class="p8">Follow us on:</p>
+            <center>
+            <a href="#" class="fa fa-facebook"></a> 
+            <a href="#" class="fa fa-twitter"></a> 
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-linkedin"></a> 
+            </center>
+          </div>
+
+        </div>
+        
+        
+      </div>
+    </section>
+    <section class="footer2">
+      <div class="col-12 txt" style="background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,83,1) 100%, rgba(0,212,255,1) 100%);">
+        <center>&#169; Created by Harvey Tan</center>
+      </div>
+
+    </section>
+    
+</body>
+</html>
